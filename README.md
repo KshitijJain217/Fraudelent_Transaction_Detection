@@ -1,7 +1,9 @@
 💡 Project Overview
+
 This project presents a comprehensive machine learning pipeline for detecting fraudulent financial transactions. Using a large-scale dataset simulating 30 days of real-world transactions, the model identifies fraudulent patterns using supervised learning algorithms like Random Forest and XGBoost. The notebook walks through data preprocessing, EDA, feature engineering, model training, evaluation, and business insights.
 
 📂 Contents
+
 Fraud_detection.ipynb: End-to-end Jupyter Notebook implementation
 
 Fraud.csv: Input dataset (not included – use provided link)
@@ -9,6 +11,7 @@ Fraud.csv: Input dataset (not included – use provided link)
 requirements.txt: Required Python libraries
 
 📊 Dataset Description
+
 The dataset includes 6.3 million+ transaction records with the following key features:
 
 type: Transaction type (TRANSFER, CASH-OUT, etc.)
@@ -26,6 +29,7 @@ isFlaggedFraud: Business rule-based flag (transactions > 200,000)
 📎 Download dataset
 
 🧪 ML Techniques Used
+
 Data Cleaning (outliers, zero/negative balances)
 
 Exploratory Data Analysis (EDA)
@@ -53,6 +57,7 @@ Feature Importance
 SHAP values (optional)
 
 🔐 Key Insights
+
 Fraud is highly concentrated in TRANSFER and CASH-OUT types.
 
 High transaction amounts and large balance discrepancies are red flags.
